@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Text Expander Tool | Installer</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.card {
+    width: 450px;
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+    text-align: center;
+}
+
+.tool-title {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.version {
+    display: inline-block;
+    background: linear-gradient(90deg,#00c853,#00e676);
+    padding: 5px 14px;
+    font-size: 12px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 14px;
+    opacity: 0.9;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+.install-btn {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    background: linear-gradient(90deg,#00c853,#00e676);
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.install-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+.steps {
+    margin-top: 20px;
+    font-size: 12px;
+    opacity: 0.7;
+    line-height: 1.6;
+}
+
+.dev-section {
+    margin-top: 30px;
+    padding-top: 25px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.dev-image {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #00e676;
+    margin-bottom: 10px;
+}
+
+.dev-name {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.dev-alias {
+    font-size: 14px;
+    opacity: 0.8;
+    margin-top: 3px;
+}
+
+.dev-role {
+    font-size: 12px;
+    opacity: 0.6;
+    margin-top: 6px;
+}
+
+.footer {
+    margin-top: 25px;
+    font-size: 11px;
+    opacity: 0.5;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <div class="tool-title">Text Expander Tool</div>
+    <div class="version">Version 1.0</div>
+
+    <div class="description">
+        Designed to enhance productivity, reduce handling time,
+        and prevent missed keywords during case evaluation.
+    </div>
+
+    <a href="https://drive.corp.amazon.com/documents/jetjeev@/text-expander.user.js">
+        <button class="install-btn">Download & Install</button>
+    </a>
+
+    <div class="steps">
+        After download:<br>
+        1. Open the file<br>
+        2. Tampermonkey will prompt installation<br>
+        3. Click Install
+    </div>
+
+    <div class="dev-section">
+        <!-- Put your image file in same folder and name it Jeevan.png -->
+        <img src="Jeevan.png" class="dev-image">
+        
+        <div class="dev-name">Jeevan</div>
+        <div class="dev-alias">@jetjeev</div>
+        <div class="dev-role">Developer</div>
+    </div>
+
+    <div class="footer">
+        Compatible with Tampermonkey | Secure Internal Deployment
+    </div>
+
+</div>
+
+</body>
+</html>
